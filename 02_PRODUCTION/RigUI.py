@@ -94,7 +94,7 @@ class RigControls(bpy.types.Panel):
             
         eyetarget = "C_eye_target"
         if isSelected([head, eyetarget]):
-            layout.prop(pose_bones["C_eye_target"], '["eye target follow head"]', slider=True)
+            layout.prop(pose_bones["C_eye_target"], '["follow head"]', slider=True)
             
 
 # Rig Layers
@@ -124,27 +124,28 @@ class RigLayers(bpy.types.Panel):
         row.prop(context.active_object.data, 'layers', index=24, toggle=True, text='coat fine')
         
         row = col.row()
-        row.prop(context.active_object.data, 'layers', index=2, toggle=True, text='fk right arms')
-        row.prop(context.active_object.data, 'layers', index=3, toggle=True, text='fk left arms')
+        row.prop(context.active_object.data, 'layers', index=2, toggle=True, text='fk arms.R')
+        row.prop(context.active_object.data, 'layers', index=3, toggle=True, text='fk arms.L')
         
         row = col.row()
-        row.prop(context.active_object.data, 'layers', index=18, toggle=True, text='ik right arms')
-        row.prop(context.active_object.data, 'layers', index=19, toggle=True, text='ik left arms')
+        row.prop(context.active_object.data, 'layers', index=18, toggle=True, text='ik arms.R')
+        row.prop(context.active_object.data, 'layers', index=19, toggle=True, text='ik arms.L')
         
         row = col.row()
         row.prop(context.active_object.data, 'layers', index=4, toggle=True, text='fingers main')
         row.prop(context.active_object.data, 'layers', index=20, toggle=True, text='fingers fine')
         
         row = col.row()
-        row.prop(context.active_object.data, 'layers', index=5, toggle=True, text='fk right legs')
-        row.prop(context.active_object.data, 'layers', index=6, toggle=True, text='fk left legs')
+        row.prop(context.active_object.data, 'layers', index=5, toggle=True, text='fk legs.R')
+        row.prop(context.active_object.data, 'layers', index=6, toggle=True, text='fk legs.L')
         
         row = col.row()
-        row.prop(context.active_object.data, 'layers', index=21, toggle=True, text='ik right legs')
-        row.prop(context.active_object.data, 'layers', index=22, toggle=True, text='ik left legs')
+        row.prop(context.active_object.data, 'layers', index=21, toggle=True, text='ik legs.R')
+        row.prop(context.active_object.data, 'layers', index=22, toggle=True, text='ik legs.L')
 
         row = col.row()
-        row.prop(context.active_object.data, 'layers', index=23, toggle=True, text='ROOT')
+        row.prop(context.active_object.data, 'layers', index=23, toggle=True, text='ROOT') 
+        
         
         
 bpy.utils.register_class(RigControls)
