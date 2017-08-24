@@ -96,6 +96,17 @@ class RigControls(bpy.types.Panel):
         if isSelected([head, eyetarget]):
             layout.prop(pose_bones["C_eye_target"], '["follow head"]', slider=True)
             
+        eyebrowr = "C_eyebrow.R"
+        if isSelected([eyebrowr]):
+            layout.prop(pose_bones["C_eyebrow.R"], '["mad.R"]', slider=True)
+            layout.prop(pose_bones["C_eyebrow.R"], '["sad.R"]', slider=True)
+            layout.prop(pose_bones["C_eyebrow.R"], '["surprise.R"]', slider=True)
+            
+        eyebrowl = "C_eyebrow.L"
+        if isSelected([eyebrowl]):
+            layout.prop(pose_bones["C_eyebrow.L"], '["mad.L"]', slider=True)
+            layout.prop(pose_bones["C_eyebrow.L"], '["sad.L"]', slider=True)
+            layout.prop(pose_bones["C_eyebrow.L"], '["surprise.L"]', slider=True)
 
 # Rig Layers
 class RigLayers(bpy.types.Panel):
