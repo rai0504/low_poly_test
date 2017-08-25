@@ -5,8 +5,11 @@
 ## Description
 This is a low poly model test as well as a Github workflow test. The images were
 rendered in Blender Cycles.
+
 Number of verts: 1708
+
 Number of faces: 1800
+
 Number of tris: 3276
 
 **Gender** Female
