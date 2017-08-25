@@ -1,3 +1,6 @@
 # Blender temp files
 *.blend1
 *.blend2
+
+# Krita temp files
+*.kra~
