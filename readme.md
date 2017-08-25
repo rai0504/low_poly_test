@@ -3,46 +3,48 @@
 # Low Poly Test
 
 ## Description
-This is where the description of the model will go. Here is what it will contain:
+This is a low poly model test as well as a Github workflow test. The images were
+rendered in Blender Cycles.
+Number of verts: 1708
+Number of faces: 1800
+Number of tris: 3276
 
-**Gender** Male/Female
+**Gender** Female
 
-**Age Range** Baby(X-Y), Teen(X-Y), etc
+**Age Range** Teen
 
-**Ethnicity** Spanish, etc
+**Ethnicity** Anime Caucassian/Asian
 
-**Era** Medieval, 18th Century Goth, etc
+**Era** Goth-ish
 
 **Dimensions**
-  * _width_ n.ddm (n'dd'')
-  * _height_ n.ddm (n'dd'')
+  * _width_ 0.69m (2'3.17'')
+  * _height_ 1.33m (4'4.36'')
   
-**Textured** Yes/No (if yes, number of textures)
-	* Texture 1 (image dimensions)
+**Textured** Yes (1 Available)
+	* Texture 1 (1024x1024)
 	
-**Rigged** Yes/No
+**Rigged** Yes
 
 **Animation**
-  * animation cycle 1 (frame length)
-  * animation cycle 2 (frame length)
-  * animation cycle n (frame length)
+  No animation cycles available.
   
-**3D Printable** Yes/No
+**3D Printable** No
 
 **3D Format**
-  * .fbx
-  * .obj
-  * .dae
-  * .3ds
-  * .skp
+  * .fbx Yes
+  * .obj Yes
+  * .dae Yes
+  * .3ds Yes
+  * .skp  No
   
 ## Preview
 **Texture-less**
 
-![3q](/02_PRODUCTION/render/3q.png)
-![Front](/02_PRODUCTION/render/front.png)
-![Side](/02_PRODUCTION/render/profile.png)
-![Back](/02_PRODUCTION/render/back.png)
+![3q](/02_PRODUCTION/render/3qraw.png)
+![Front](/02_PRODUCTION/render/frontraw.png)
+![Side](/02_PRODUCTION/render/profileraw.png)
+![Back](/02_PRODUCTION/render/backraw.png)
 
 **Texture 1**
 
@@ -52,14 +54,14 @@ This is where the description of the model will go. Here is what it will contain
 ![Back](/02_PRODUCTION/render/back.png)
   
 ## Developed In
-**Krita vX.YY** Concept
+**Krita v3.1.4** Concept
 
-**GIMP vX.YY** Textures
+**Photoshop CS6** Textures
 
-**Blender vX.YY** 3D Model
+**Blender v2.78** Modelling, Rigging, Texturing
 
 ## How to use rig
-The rig how-to is in the blend file.
+The rig how-to is in the blend file. Did not script FK-to-IK snapping or vice versa.
 
 ## Terms of use
 You're free to use the model in any project, be it commercial or non-commercial,
@@ -75,30 +77,28 @@ If possible, I would like to know where this model is being used. This is just m
 being inquisitive.
 
 ## Support
-PayPal details
+**PayPal details** Yet to setup.
 
-Patreon details
+**Patreon details** Yet to setup.
 
 Site where I sell non-open source stuff.
 
 ## Artist
 **Rai** for *Studio Name*
 
-**Facebook** Find out if I'm cool or not.
+**Facebook** Ryan (enable direct link)
 
-**Instagram** Follow my work.
+**Instagram** @rai.cg
 
-**YouTube** See how I do my stuff.
+**YouTube** Yet to set up.
 
 **DeviantArt** My best works.
 
-**Pinterest** See what inspires me.
+**Pinterest** Ryan (rai5395@gmail.com)
 
-**Github** Get my source files.
+**Github** Ryan (rai0405)
 
-**Personal Website** See what I have done so far, and what I'm currently involved in.
+**Personal Website** Yet to setup. See what I have done so far, and what I'm currently involved in.
 
 ## Acknowledgements
-Hat tip to anyone who helped or inspired.
-
-Eg. cgtextures.com, etc
+None.
